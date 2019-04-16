@@ -1,0 +1,57 @@
+body {
+  background-image: url("../images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 1015px;
+  border: 2px solid black;
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+table {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+  width: 1019px;
+  border-collapse: collapse;
+  color: white;
+  font-size: 115%;
+}
+
+td {
+  padding: 20px 10px;
+}
+
+td:nth-child(1) {
+  border-right: 2px solid white;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+tr:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+th {
+  font-size: 22px;
+  height: 20px;
+  border-bottom: 2px solid white;
+  pointer-events: none;
+}
+
+th:nth-child(1) {
+  width: 300px;
+  border-right: 2px solid white;
+}
