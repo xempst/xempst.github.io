@@ -1,0 +1,40 @@
+body {
+  background-image: url("../images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 1015px;
+  border: 2px solid black;
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+table {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+}
+
+th {
+  font-size: 22px;
+  color: white;
+  height: 20px;
+  border-bottom: 2px solid white;
+}
+
+td.description {
+  padding: 20px 0px;
+  color: white;
+  width: 700px;
+  vertical-align: top;
+  padding: 5px;
+  margin: 0px;
+}

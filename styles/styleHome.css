@@ -1,0 +1,31 @@
+body {
+  background-image: url("../images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 13% auto;
+  width: 500px;
+  height: 470px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+}
+
+.contact {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.link {
+  padding-left: 10px;
+  font-size: 23px;
+}
+
+h1 {
+  font-size: 50px;
+}
